@@ -1,0 +1,27 @@
+@import '_settings'
+
+// ~~~~~~~~~
+// ~ Setup ~
+// ~~~~~~~~~
+
+normalize-css()
+typographic()
+
+// ~~~~~~~~~~~~~~~
+// ~ Main Styles ~
+// ~~~~~~~~~~~~~~~
+
+// I HATE webkit's vertical margining, so I usually zero it.
+
+html
+	-webkit-margin-before 0
+	-webkit-margin-after 0
+
+h1, h2, h3, h4, h5, h6, p
+	-webkit-margin-before 0
+	-webkit-margin-after 0
+
+section
+	lost-utility clearfix
+	// Want your site content to be centered and have some nice side gutters? Uncomment below:
+	// lost-center 1140px
