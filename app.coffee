@@ -9,6 +9,8 @@ module.exports =
   ignores: ['readme.md', '**/_*', '.gitignore', 'ship.*conf']
 
   extensions: [
+    js_pipeline(files: ['bower_components/handlebars/handlebars.js', 'bower_components/jquery/dist/jquery.js'], out: 'js/reqs.js', minify: true, hash: false)
+
     dynamic_content()
   ]
 
