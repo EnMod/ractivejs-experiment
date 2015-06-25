@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Simon Belmont",
+    "age": 22,
+    "info": {
+      "theme": "Simon's Theme",
+      "main-weapons": ["Vampire Killer (base)","Vampire Killer (chain)","Vampire Killer (flail)"],
+      "sub-weapons": ["Holy water","Dagger","Cross","Stopwatch","Axe"],
+      "dracula-defeats": 2,
+      "appearances-canon": ["Castlevania","Castlevania II: Simon's Quest"]
+    },
+    "description": "Most famous of the Belmonts, Simon was a man of few words and even less tolerance of the night.  Not only did he storm the vampire's castle by himself and take down Dracula one-on-one, but he also trekked across Wallachia years later to gather Dracula's scattered remains, bringing him back to life. Why? So he could beat Dracula AGAIN...and eliminate the vampire's lingering curse at the same time.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/simon.jpg",
+      "large": "assets/img/simon.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Trevor Belmont",
+    "age": 23,
+    "info": {
+      "theme": "Beginning",
+      "main-weapons": ["Vampire Killer (base)","Vampire Killer (chain)","Vampire Killer (flail)"],
+      "sub-weapons": ["Holy water","Dagger","Cross","Axe"],
+      "dracula-defeats": 1,
+      "appearances-canon": ["Castlevania III: Dracula's Curse","Castlevania: Curse of Darkness"]
+    },
+    "description": "Trevor Belmont was labeled a misfit by Wallachia's citizens along with the rest of the Belmont clan, due to rumors of witchcraft and malevolent supernatural forces they didn't comprehend. That didn't stop Trevor from teaming up with Dracula's son Alucard, a reclusive witch named Sypha Belnades, and a thief named Grant Danasty to take down the Lord of Darkness.  Three years later Trevor assisted Dracula's former Devil Forgemaster, Hector, in freeing Wallachia of Dracula and his curse, as the latter had lingered and given life to the former one last time.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/trevor.jpg",
+      "large": "assets/img/trevor.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Leon Belmont",
+    "age": 22,
+    "info": {
+      "theme": "Lament of Innocence ~Leon's Theme~",
+      "main-weapons": ["Whip of Alchemy","Vampire Killer (base)"],
+      "sub-weapons": ["Holy water","Crystal","Cross","Dagger","Axe"],
+      "dracula-defeats": 0,
+      "appearances-canon": "Castlevania: Lament of Innocence"
+    },
+    "description": "Leon Belmont and Mathias Cronqvist were elite knights of the church...until Mathias lost his wife Elisabetha to disease.  Enraged, Mathias deceived Leon and siezed the powers of vampire Walter Bernhard (and his castle, no less) to rebel against God for taking his wife, becoming the notorious Dracula. Leon had no choice but to create the Vampire Killer - from his Whip of Alchemy and the soul of his betrothed, Sara - and gain strength that would harm Dracula and his servants. Leon swore that from that point on the Belmont clan would \"hunt [Dracula], AND the night!\"",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/leon.jpg",
+      "large": "assets/img/leon.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Christopher Belmont",
+    "age": "Unknown",
+    "info": {
+      "theme": ["Battle of the Holy","New Messiah"],
+      "main-weapons": ["Vampire Killer (base)","Vampire Killer (flail)","Vampire Killer (fireball)"],
+      "sub-weapons": ["Holy water","Axe","Cross"],
+      "dracula-defeats": 2,
+      "appearances-canon": ["Castlevania: The Adventure","Castlevania II: Belmont's Revenge"]
+    },
+    "description": "",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/christopher.jpg",
+      "large": "assets/img/christopher.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Adrian Farenheit Tepes (Alucard)",
+    "age": "Immortal (appears 18)",
+    "info": {
+      "theme": ["Dracula's Castle","The Tragic Prince"],
+      "main-weapons": "Medieval Armaments",
+      "sub-weapons": ["Holy water","Cross","Axe","Dagger","Stopwatch"],
+      "dracula-defeats": 1,
+      "appearances-canon": ["Castlevania III: Dracula's Curse","Castlevania: Symphony of the Night","Castlevania: Aria of Sorrow","Castlevania: Dawn of Sorrow"]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/alucard.jpg",
+      "large": "assets/img/alucard.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Maria Renard",
+    "age": "18 (last appearance)",
+    "info": {
+      "theme": "ZTE",
+      "main-weapons": 32,
+      "sub-weapons": "Android",
+      "dracula-defeats": 0,
+      "appearances-canon": ["Castlevania: Rondo of Blood","Castlevania: Symphony of the Night","Castlevania: Nocturne of Recollection (novella)"]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/maria.jpg",
+      "large": "assets/img/maria.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Richter Belmont",
+    "age": 399,
+    "info": {
+      "theme": "Samsung",
+      "main-weapons": 16,
+      "sub-weapons": "Android",
+      "dracula-defeats": 2,
+      "appearances-canon": ["Castlevania: Rondo of Blood","Castlevania: Symphony of the Night","Castlevania: Nocturne of Recollection (novella)"]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/richter.jpg",
+      "large": "assets/img/richter.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Julius Belmont",
+    "age": 399,
+    "info": {
+      "theme": "Apple",
+      "main-weapons": 16,
+      "sub-weapons": "iOS",
+      "dracula-defeats": 8,
+      "appearances-canon": ["Castlevania: Aria of Sorrow","Castlevania: Dawn of Sorrow"]
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "badassness": 4,
+    "image": {
+      "small": "assets/img/iphone5s.jpg",
+      "large": "assets/img/iphone5s-large.jpg"
+    }
+  }
+]
