@@ -3,13 +3,14 @@ rupture           = require 'rupture'
 typographic       = require 'typographic'
 dynamic_content   = require 'dynamic-content'
 autoprefixer      = require 'autoprefixer-stylus'
+js_pipeline       = require 'js-pipeline'
 lost              = require 'lost'
 
 module.exports =
-  ignores: ['readme.md', '**/_*', '.gitignore', 'ship.*conf']
+  ignores: ['readme.md', '**/_*', '.gitignore', '.gitattributes', 'ship.*conf', 'bower_components/**/*', 'bower.json']
 
   extensions: [
-    js_pipeline(files: ['bower_components/handlebars/handlebars.js', 'bower_components/jquery/dist/jquery.js'], out: 'js/reqs.js', minify: true, hash: false)
+    js_pipeline(files: 'libs/**/*.js', out: 'js/reqs.js', minify: true, hash: false)
 
     dynamic_content()
   ]

@@ -12,8 +12,8 @@ module.exports =
   
   extensions: [
     # Bundle up the dependencies
-    js_pipeline(files: ['bower_components/handlebars/handlebars.js', 'bower_components/jquery/dist/jquery.js'], out: 'js/reqs.js', minify: true, hash: false)
-
+    js_pipeline(files: 'libs/**/*.js', out: 'js/reqs.js', minify: true, hash: false)
+    
     # minify the main.js
     js_pipeline(files: 'assets/js/*.ls', out: 'js/main.js', minify: true, hash: false)
 

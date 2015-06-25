@@ -1,0 +1,25 @@
+{
+  "name": "My First SPA",
+  "version": "0.0.1",
+  "homepage": "https://github.com/EnMod/spa-tryouts",
+  "authors": [
+    "Noel Quiles <noelquilesgraphics@gmail.com>"
+  ],
+  "description": "Base template for a no-framework SPA, using a guide from tutorialzine: http://tutorialzine.com/2015/02/single-page-app-without-a-framework/",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "handlebars": "~3.0.3"
+  },
+  "install": {
+    "path": "libs"
+  }
+}
