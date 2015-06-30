@@ -64,7 +64,7 @@
       "dracula-defeats": 2,
       "appearances-canon": ["Castlevania: The Adventure","Castlevania II: Belmont's Revenge"]
     },
-    "description": "",
+    "description": "Christopher Belmont rose up to put Dracula back in his place, as the Belmonts do, once the fiend woke from his centennial dirt nap in 1576. In fact, Christopher laid such a beating on Dracula that he was reduced to an escaping cloud of mist!  15 years later, Christopher's son Soleiyu finished his rite of passage into manhood, and all seemed well.  However, a still-weakened Dracula took the boy to his castle! Christopher had to fight through four elemental castles to raise Dracula's from the depths, rescue his son, and finish what he started 15 years prior.",
     "badassness": 4,
     "image": {
       "small": "assets/img/christopher.jpg",
@@ -80,9 +80,9 @@
       "main-weapons": "Medieval Armaments",
       "sub-weapons": ["Holy water","Cross","Axe","Dagger","Stopwatch"],
       "dracula-defeats": 1,
-      "appearances-canon": ["Castlevania III: Dracula's Curse","Castlevania: Symphony of the Night","Castlevania: Aria of Sorrow","Castlevania: Dawn of Sorrow"]
+      "appearances-canon": ["Castlevania III: Dracula's Curse","Castlevania: Symphony of the Night","Castlevania: Nocturne of Recollection (novella)","Castlevania: Aria of Sorrow","Castlevania: Dawn of Sorrow"]
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "Adrian Farenheit Tepes took the name Alucard after witnessing his father declare war on humanity. His campaign against Dracula led him to ally with Trevor Belmont's party in 1476, as well as Richter Belmont some 400 years later.  Around this time Alucard began a romantic relationship with Maria Renard, living peacefully with her after Dracula's defeat in 1791.  In 2035 and 2036 Alucard rose to what seemed to be his final adversaries: forces hellbent on making the reincarnations of a finally obliterated Dracula who had finally been killed by Julius Belmont, back to the world of the living.",
     "badassness": 4,
     "image": {
       "small": "assets/img/alucard.jpg",

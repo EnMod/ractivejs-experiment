@@ -1,5 +1,5 @@
-- libs/jquery/dist/jquery.js
-- libs/handlebars/handlebars.js
-- libs/velocity/velocity.js
-- libs/velocity/velocity.ui.js
-- libs/blast-text/*.js
+- libs/jquery/*.js
+- libs/handlebars/*.js
+# - libs/velocity/velocity.js
+# - libs/velocity/velocity.ui.js
+# - libs/blast-text/*.js
