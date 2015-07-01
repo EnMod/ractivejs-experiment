@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "handlebars": "~3.0.3"
+    "handlebars": "~3.0.3",
+    "ractive": "~0.7.3"
   },
   "install": {
     "path": "libs"
