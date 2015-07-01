@@ -1,5 +1,78 @@
 extends _layout
 
 block content
-	h1 It's a test!
-	h3 Yes!
+	header.compact
+			h2.tzine
+				a(href='http://tutorialzine.com/2015/02/single-page-app-without-a-framework/') Back to article
+			h1
+				a(href='#') Single Page App Test: The IGAvania Character Sorter
+		.main-content
+			.all-heroes.page
+				.filters
+					form
+						.filter-criteria
+							span Theme
+							label.theme
+								script#theme-filter(type='x-handlebars-template').
+									{{#each this}}
+										<input type="checkbox" name="theme" value="{{info.theme}}"/>
+										{{info.theme}}
+									{{/each}}
+						.filter-criteria
+							span Main Weapons
+							label.main
+								script#main-filter(type='x-handlebars-template').
+									{{#each this}}
+										<input type="checkbox" name="main-weapons" value="{{info.main-weapons}}"/>
+										{{info.main-weapons}}
+									{{/each}}
+						.filter-criteria
+							span Sub-Weapons
+							label.sub
+								script#sub-filter(type='x-handlebars-template').
+									{{#each this}}
+										<input type="checkbox" name="sub-weapons" value="{{info.sub-weapons}}"/>
+										{{info.sub-weapons}}
+									{{/each}}
+						.filter-criteria
+							span Dracula Defeats
+							label.drac
+								script#drac-filter(type='x-handlebars-template').
+									{{#each this}}
+										<input type="checkbox" name="dracula-defeats" value="{{info.dracula-defeats}}"/>
+										{{info.dracula-defeats}}
+									{{/each}}
+						.filter-criteria
+							span Canon Appearances
+							label.appearances
+								script#appearances-filter(type='x-handlebars-template').
+									{{#each this}}
+										<input type="checkbox" name="appearances-canon" value="{{info.appearances-canon}}"/>
+										{{info.appearances-canon}}
+									{{/each}}
+						button Clear filters
+				ul.heroes-list
+					script#heroes-template(type='x-handlebars-template').
+						{{#each this}}
+							<li data-index="{{id}}"><a href="#" class="hero-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
+								<h2><a href="#"> {{name}} </a></h2>
+									<ul class="hero-description">
+										<li><span>Age: </span>{{age}}</li>
+										<li><span>Theme: </span>{{info.theme}}</li>
+										<li><span>Main Weapons: </span>{{info.main-weapons}}</li>
+										<li><span>Sub-Weapons: </span>{{info.sub-weapons}}</li>
+										<li><span>Dracula Defeats: </span>{{info.dracula-defeats}}</li>
+										<li><span>Canon Appearances: </span>{{info.appearances-canon}}</li>
+									</ul>
+								<div class="highlight"></div>
+							</li>
+						{{/each}}
+			.single-hero.page
+				.overlay
+				.preview-large
+					h3 Single hero view
+					img(src='')
+					p
+					span.close ×
+			.error.page
+				h3 Sorry, something went wrong :(
