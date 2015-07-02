@@ -13,6 +13,7 @@ block content
 						.filter-criteria
 							span Theme
 							label.theme
+								//- do arrays in heroes.json that make the weapons like "main-weapon 1":"Vampire Killer (base)" or something, such that you can iterate over the individual lengths to enumerate and display each hero's info pieces
 								script#theme-filter(type='x-handlebars-template').
 									{{#each this}}
 										<input type="checkbox" name="theme" value="{{info.theme}}"/>

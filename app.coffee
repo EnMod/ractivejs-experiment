@@ -12,7 +12,7 @@ module.exports =
   ignores: ['readme.md', '**/_*', '.gitignore', '.gitattributes', 'ship.*conf', 'bower.json']
 
   extensions: [
-    # js_pipeline(manifest:'jsmanifest.yml', out: 'js/reqs.js')
+    js_pipeline(manifest:'jsmanifest.yml', out: 'js/reqs.js')
     js_pipeline(files: 'assets/js/*.ls', out: 'js/main.js')
     css_pipeline(files:'assets/css/*.styl', out: 'css/style.css')
     dynamic_content()
