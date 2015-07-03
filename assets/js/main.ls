@@ -5,4 +5,3 @@ ractive = new Ractive {
 		
 	}
 }
-
