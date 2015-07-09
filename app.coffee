@@ -9,7 +9,7 @@ lost            = require 'lost'
 rimraf          = require 'rimraf'
 
 module.exports =
-  ignores: ['readme.md', '**/_*', '.gitignore', '.gitattributes', 'ship.*conf', 'bower.json']
+  ignores: ['readme.md', '**/_*', '.gitignore', '.gitattributes', 'ship.*conf','bower_components', 'bower.json']
 
   extensions: [
     js_pipeline(manifest:'jsmanifest.yml', out: 'js/reqs.js')
