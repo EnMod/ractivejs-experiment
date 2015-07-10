@@ -12,8 +12,8 @@ heroes = [
 	{
 		id: 1,
 		name: "Simon Belmont",
-		age: 22,
 		info: {
+			age: 22,
 			theme: "Simon's Theme",
 			mainWeapons: ["Vampire Killer (base)","Vampire Killer (chain)","Vampire Killer (flail)"],
 			subWeapons: ["Holy water","Dagger","Cross","Stopwatch","Axe"],
@@ -30,8 +30,8 @@ heroes = [
 	{
 		id: 2,
 		name: "Trevor Belmont",
-		age: 23,
 		info: {
+			age: 23,
 			theme: "Beginning",
 			mainWeapons: ["Vampire Killer (base)","Vampire Killer (chain)","Vampire Killer (flail)"],
 			subWeapons: ["Holy water","Dagger","Cross","Axe"],
@@ -48,8 +48,8 @@ heroes = [
 	{
 		id: 3,
 		name: "Leon Belmont",
-		age: 22,
 		info: {
+			age: 22,
 			theme: "Lament of Innocence ~Leon's Theme~",
 			mainWeapons: ["Whip of Alchemy","Vampire Killer (base)"],
 			subWeapons: ["Holy water","Crystal","Cross","Dagger","Axe"],
@@ -66,8 +66,8 @@ heroes = [
 	{
 		id: 4,
 		name: "Christopher Belmont",
-		age: "Unknown",
 		info: {
+			age: "Unknown",
 			theme: ["Battle of the Holy","New Messiah"],
 			mainWeapons: ["Vampire Killer (base)","Vampire Killer (flail)","Vampire Killer (fireball)"],
 			subWeapons: ["Holy water","Axe","Cross"],
@@ -84,8 +84,8 @@ heroes = [
 	{
 		id: 5,
 		name: "Adrian Farenheit Tepes (Alucard)",
-		age: "Immortal (appears 18)",
 		info: {
+			age: "Immortal (appears 18)",
 			theme: ["Dracula's Castle","The Tragic Prince"],
 			mainWeapons: "Medieval Armaments",
 			subWeapons: ["Holy water","Cross","Axe","Dagger","Stopwatch"],
@@ -102,8 +102,8 @@ heroes = [
 	{
 		id: 6,
 		name: "Maria Renard",
-		age: "18 (last appearance)",
 		info: {
+			age: "18 (last appearance)",
 			theme: "Guardian",
 			mainWeapons: ["Guardian spirits","Animal dominion","Fisticuffs"],
 			subWeapons: ["Guardian's Knuckle","Songbook"],
@@ -120,8 +120,8 @@ heroes = [
 	{
 		id: 7,
 		name: "Richter Belmont",
-		age: "25 (last appearance)",
 		info: {
+			age: "25 (last appearance)",
 			theme: ["Overture","Blood Relations"],
 			mainWeapons: ["Vampire Killer (base)","Vampire Killer (chain)","Vampire Killer (flail)"],
 			subWeapons: ["Holy water","Dagger","Cross","Stopwatch","Axe"],
@@ -138,8 +138,8 @@ heroes = [
 	{
 		id: 8,
 		name: "Julius Belmont",
-		age: "57 (last appearance)",
 		info: {
+			age: "57 (last appearance)",
 			theme: "Can't Wait Until the Night",
 			mainWeapons: "Vampire Killer (flail)",
 			subWeapons: ["Axe","Holy water","Cross","Grand Cross"],

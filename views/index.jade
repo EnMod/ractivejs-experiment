@@ -2,31 +2,45 @@ extends _layout
 
 block content
 	header
-		h1 IGAvania Sorter
+		h1 IGAvania Filterer
 	section
 		nav
+			p Filter by:
 			ul
-				li info1
-				li info2
-				li info3
-				li info4
-				li info5
+				li Theme
+				li Main Weapons
+				li Sub Weapons
+				li Dracula Defeats
+				li Canon Appearances
 		main
 			ul.heroes-list
 				script#heroes(type='text/ractive').
 					{{#each warriors:id}}
 						<li data-index="{{id}}"><a href="#" class="hero-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
-						  <h2><a href="#">{{name}} </a></h2>
-						  <ul class="hero-description">
-						    <li><span>Age: </span>{{age}}</li>
-						    <li><span>Theme:</span>{{info.theme}}</li>
-						    <li><span>Main Weapons: </span>{{info.mainWeapons}}</li>
-						    <li><span>Sub Weapons: </span>{{info.subWeapons}}</li>
-						    <li><span>Dracula Defeats: </span>{{info.draculaDefeats}}</li>
-						    <li><span>Canon Appearances: </span>{{info.canonAppearances}}</li>
-						  </ul>
-						  <p class="badassness">Badassness: {{badassness}}/5</p>
-						  <div class="highlight"></div>
+							<h2><a href="#">{{name}} </a></h2>
+							<ul class="hero-description">
+								{{#info}}
+									<li><span>Age: </span>{{age}}</li>
+									<li><span>Theme:</span>{{theme}}</li>
+									<li><span>Main Weapons: </span>{{mainWeapons}}</li>
+									<li><span>Sub Weapons: </span>{{subWeapons}}</li>
+									<li><span>Dracula Defeats: </span>{{draculaDefeats}}</li>
+									<li><span>Canon Appearances: </span>{{canonAppearances}}</li>
+								{{/info}}
+							</ul>
+							<p class="badassness">Badassness: {{badassness}}/5</p>
+							<div class="highlight"></div>
 						</li>
-					{{/each}}	
+					{{/each}}
+
+			.single-hero-page
+				.overlay
+				.preview-large
+				img(src='')
+				p
+				span.close &times;
+
+			.error.page
+				h3 The night has claimed this page! (Something went wrong.)
+
 		footer
