@@ -160,3 +160,5 @@ ractive = new Ractive {
 	template: '#heroes'
 	data: { warriors:heroes }
 }
+
+ractive.set()

@@ -21,11 +21,45 @@ block content
 							<ul class="hero-description">
 								{{#info}}
 									<li><span>Age: </span>{{age}}</li>
-									<li><span>Theme:</span>{{theme}}</li>
-									<li><span>Main Weapons: </span>{{mainWeapons}}</li>
-									<li><span>Sub Weapons: </span>{{subWeapons}}</li>
-									<li><span>Dracula Defeats: </span>{{draculaDefeats}}</li>
-									<li><span>Canon Appearances: </span>{{canonAppearances}}</li>
+									<li><span>Theme:</span>
+										{{#if ({{theme.constructor}} == Array)}}
+											{{#theme}}
+												{{.}},&nbsp;tohjriogyo
+											{{/theme}}
+										{{else}}
+											{{theme}}
+										{{/if}}
+									</li>
+									<li><span>Main Weapons: </span>
+										{{#if isArray}}
+											{{#mainWeapons}}
+												{{.}},&nbsp;
+											{{/mainWeapons}}
+										{{else}}
+											{{mainWeapons}}
+										{{/if}}
+									</li>
+									<li><span>Sub Weapons: </span>
+										{{#if isArray}}
+											{{#subWeapons}}
+												{{.}}&nbsp;
+											{{/subWeapons}}
+										{{else}}
+											{{subWeapons}}
+										{{/if}}
+									</li>
+									<li><span>Dracula Defeats: </span>
+										{{draculaDefeats}}
+									</li>
+									<li><span>Canon Appearances: </span>
+										{{#if isArray}}
+											{{#canonAppearances}}
+												{{.}},&nbsp;
+											{{/canonAppearances}}
+										{{else}}
+											{{canonAppearances}}
+										{{/if}}
+									</li>
 								{{/info}}
 							</ul>
 							<p class="badassness">Badassness: {{badassness}}/5</p>
