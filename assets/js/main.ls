@@ -1,13 +1,3 @@
-# natively grab the JSON from heroes.json
-
-# create checkable criteria filter list by iterating over and comparing all info.items with length greater than 1
-
-
-
-# hold the data, eliminate duplicates, populate list of filter items with result
-
-
-# define heroes as the resulting usable JSON
 heroes = [
 	{
 		id: 1,
@@ -146,7 +136,7 @@ heroes = [
 			draculaDefeats: 1,
 			canonAppearances: ["Castlevania: Aria of Sorrow","Castlevania: Dawn of Sorrow","Castlevania: Ricordanza of the God Abyss (novel)"]
 		},
-		description: "Julius Belmont was the leader of a final, decisive campaign against Dracula known as the Demon Castle War, culminating in the Battle of 1999 and the true obliteration of Dracula. The vampire's castle was sealed by Julius in a solar eclipse along with the Vampire Killer, an act which erased many of Julius's memories.  In 2035 Julius's memories were awakened once again after he, along with Alucard, needed to venture into the eclipse and help prevent Dracula's reincarnation Soma Cruz from becoming Dracula himself.  A cult rose to power in the following year, with the goal of bringing forth Dracula's power and using Soma as its vessel; Julius, Alucard, and Sypha Belnades's descendant Yoko assisted Soma in thwarting the cult's plans. One year later, Julius and his constituents rose to the challenge of defeating Olrox, one of Dracula's old generals and mastermind of a siniter plan to conquer the living and chaos realms.",
+		description: "Julius Belmont was the leader of a final, decisive campaign against Dracula known as the Demon Castle War, culminating in the Battle of 1999 and the true obliteration of Dracula. The vampire's castle was sealed by Julius in a solar eclipse along with the Vampire Killer, an act which erased many of Julius's memories.  In 2035 Julius's memories were reawakened after he and Alucard needed to venture into the eclipse, and help prevent Dracula's reincarnation Soma Cruz from becoming Dracula himself.  A cult rose to power in the following year, with the goal of bringing forth Dracula's power and using Soma as its vessel; Julius, Alucard, and Sypha Belnades's descendant Yoko assisted Soma in thwarting the cult's plans. One year after that, Julius and his constituents rose to the challenge of defeating Olrox, one of Dracula's old generals and mastermind of a sinister plan to conquer the living and chaos realms.",
 		badassness: 5,
 		image: {
 			small: "img/julius.jpg",
@@ -158,7 +148,9 @@ heroes = [
 ractive = new Ractive {
 	el: '.heroes-list'
 	template: '#heroes'
-	data: { warriors:heroes }
+	data: { 
+		warriors: heroes
+	}
 }
 
-ractive.set()
+

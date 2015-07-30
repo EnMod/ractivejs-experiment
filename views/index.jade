@@ -22,16 +22,16 @@ block content
 								{{#info}}
 									<li><span>Age: </span>{{age}}</li>
 									<li><span>Theme:</span>
-										{{#if ({{theme.constructor}} == Array)}}
+										{{#if Array.isArray(theme) }}
 											{{#theme}}
-												{{.}},&nbsp;tohjriogyo
+												{{.}},&nbsp;
 											{{/theme}}
 										{{else}}
 											{{theme}}
 										{{/if}}
 									</li>
 									<li><span>Main Weapons: </span>
-										{{#if isArray}}
+										{{#if Array.isArray(mainWeapons) }}
 											{{#mainWeapons}}
 												{{.}},&nbsp;
 											{{/mainWeapons}}
@@ -40,7 +40,7 @@ block content
 										{{/if}}
 									</li>
 									<li><span>Sub Weapons: </span>
-										{{#if isArray}}
+										{{#if Array.isArray(subWeapons) }}
 											{{#subWeapons}}
 												{{.}}&nbsp;
 											{{/subWeapons}}
@@ -52,7 +52,7 @@ block content
 										{{draculaDefeats}}
 									</li>
 									<li><span>Canon Appearances: </span>
-										{{#if isArray}}
+										{{#if Array.isArray(canonAppearances) }}
 											{{#canonAppearances}}
 												{{.}},&nbsp;
 											{{/canonAppearances}}
