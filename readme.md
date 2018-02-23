@@ -1,6 +1,6 @@
-# SPA Tryouts
+# RactiveJS Experiment
 
-My first attempt at SPA dev
+My first attempt at SPA dev, be gentle!
 
 ### Setup
 
