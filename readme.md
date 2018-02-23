@@ -1,6 +1,6 @@
 # RactiveJS Experiment
 
-My first attempt at SPA dev, be gentle!
+My first attempt at SPA dev 3 years ago, be gentle!
 
 ### Setup
 
