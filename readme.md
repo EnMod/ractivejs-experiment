@@ -10,3 +10,9 @@ My first attempt at SPA dev 3 years ago, be gentle!
 - run `bower install`
 - run `roots watch`
 - done
+
+# Disclaimer
+
+This app makes reference to characters and IP related to the Castlevania video game series; I do not claim to own or seek to profit off of Castlevania, its IP or related IP. All Castlevania IP, licenses, trademarks, copyrights, and otherwise elements of ownership belong to Konami, LTD, and if not them, then the respective copyright owners, trademark holders, or owners.
+
+I just wanted to make a practice app based on something I'm familiar with!
